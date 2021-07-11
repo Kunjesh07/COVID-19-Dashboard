@@ -67,7 +67,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'core.wsgi.application'
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
@@ -102,7 +102,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'IST'
 
 USE_I18N = True
 
